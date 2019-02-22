@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CRUD_sample" Class="SampleDataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=HARHAR\SQLEXPRESS;Initial Catalog=CRUD_sample;Persist Security Info=True;User ID=sa" SettingsObjectName="CRUD_sample_api.Properties.Settings" SettingsPropertyName="CRUD_sampleConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table1" Member="Table1s">
+    <Type Name="Table1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
